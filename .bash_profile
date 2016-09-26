@@ -1,9 +1,8 @@
 export PATH="/usr/local/bin:$PATH"
 
 # Meta alias's
-alias osu="open -a Sublime\ Text\ 3"
-alias subl="open -a Sublime\ Text\ 3"
-alias subl2="open -a Sublime\ Text\ 2"
+alias osu="open -a Sublime\ Text"
+alias subl="open -a Sublime\ Text"
 alias oc="open -a Google\ Chrome"
 alias sf="open -a Soundflowerbed"
 alias sp="open -a System\ Preferences"
@@ -36,9 +35,9 @@ alias pserver="python -m SimpleHTTPServer"
 export REPLYTO=sashabayan@gmail.com
 
 #show and hide hidden files
-alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias showfiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 
-alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+alias hidefiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
 #Star Wars Episove IV
 alias starwars="telnet towel.blinkenlights.nl"
